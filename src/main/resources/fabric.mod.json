@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "packgen",
+  "version": "${version}",
+  "name": "packgen",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/packgen/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.hinoob.packgen.PackgenClient"
+    ],
+    "main": [
+      "org.hinoob.packgen.Packgen"
+    ]
+  },
+  "mixins": [
+    "packgen.mixins.json",
+    {
+      "config": "packgen.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
