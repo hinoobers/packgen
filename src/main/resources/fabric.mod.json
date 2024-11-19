@@ -12,9 +12,6 @@
   "entrypoints": {
     "client": [
       "org.hinoob.packgen.PackgenClient"
-    ],
-    "main": [
-      "org.hinoob.packgen.Packgen"
     ]
   },
   "mixins": [

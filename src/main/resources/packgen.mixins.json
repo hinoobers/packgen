@@ -3,9 +3,7 @@
   "minVersion": "0.8",
   "package": "org.hinoob.packgen.mixin",
   "compatibilityLevel": "JAVA_21",
-  "client": [
-    "ResourcePackManagerMixin",
-    "PackScreenMixin"
+  "mixins": [
   ],
   "injectors": {
     "defaultRequire": 1
